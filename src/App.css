@@ -1,0 +1,161 @@
+/* Spacing for section titles */
+section {
+  margin: 40px 20px;
+}
+
+section h2 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Main container spacing */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header spacing */
+header {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  padding: 0 20px;
+}
+
+.books-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 250px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto 10px auto;
+}
+
+.description {
+  font-size: 14px;
+  text-align: left;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.add-book-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 12px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 120px;
+}
+
+.search-button:hover {
+  background-color: #1976D2;
+}
+
+.search-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.status-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.status-button.want-to-read {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.status-button.want-to-read:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.status-button.read {
+  background-color: #2196F3;
+  color: white;
+}
+
+.status-button.read:hover {
+  background-color: #1976D2;
+  transform: translateY(-2px);
+}
